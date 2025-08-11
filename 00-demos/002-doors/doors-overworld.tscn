@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ck4s10jgiawnu"]
+
+[node name="Doors-overworld" type="Node2D"]
+
+[node name="mover" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="mover"]

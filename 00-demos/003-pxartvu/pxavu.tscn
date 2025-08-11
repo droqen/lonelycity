@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://cksdx7v2qwcc0"]
+
+[ext_resource type="Script" uid="uid://cujcjt5j2xlht" path="res://00-demos/003-pxartvu/pxavu.gd" id="1_uldp0"]
+[ext_resource type="Texture2D" uid="uid://chni1rvtci8up" path="res://00-demos/003-pxartvu/pxart/pg06.png" id="2_70yn1"]
+[ext_resource type="Shader" uid="uid://c5p5hrpfyyvce" path="res://00-demos/003-pxartvu/pxavu.gdshader" id="3_70yn1"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dlojc"]
+shader = ExtResource("3_70yn1")
+shader_parameter/strength = 2.0
+shader_parameter/sample_power = 5
+shader_parameter/is_canvas_group = true
+
+[node name="Pxavu" type="CanvasGroup"]
+material = SubResource("ShaderMaterial_dlojc")
+script = ExtResource("1_uldp0")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -1000.0
+offset_top = -1000.0
+offset_right = 1000.0
+offset_bottom = 1000.0
+color = Color(0.43712, 0.43712, 0.43712, 1)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+ignore_rotation = false
+
+[node name="art" type="Sprite2D" parent="."]
+texture = ExtResource("2_70yn1")

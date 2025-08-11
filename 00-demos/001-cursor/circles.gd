@@ -88,7 +88,7 @@ var coincircles : Array[Circle]
 func _ready() -> void:
 	for i in range(100):
 		killcircles.append(Circle.new())
-		if i < 10: coincircles.append(Circle.new())
+		#if i < 10: coincircles.append(Circle.new())
 		oxygencircles.append(Circle.new())
 	for oc in oxygencircles:
 		oc.boundary = 1000; oc.x *= 2; oc.y *= 2;

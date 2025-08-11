@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://wlvruim4f875"]
 
-[ext_resource type="Script" uid="uid://ck2t4j65ayft5" path="res://you.gd" id="1_72is4"]
-[ext_resource type="Script" uid="uid://b1hvrhqsdt58m" path="res://circles.gd" id="2_8b1em"]
-[ext_resource type="Script" uid="uid://mrd830gvyjk7" path="res://draggable_camera.gd" id="3_65vbi"]
+[ext_resource type="Script" uid="uid://ck2t4j65ayft5" path="res://00-demos/001-cursor/you.gd" id="1_72is4"]
+[ext_resource type="Script" uid="uid://b1hvrhqsdt58m" path="res://00-demos/001-cursor/circles.gd" id="2_8b1em"]
+[ext_resource type="Script" uid="uid://mrd830gvyjk7" path="res://00-demos/001-cursor/draggable_camera.gd" id="3_65vbi"]
 
 [node name="Flight" type="Node2D"]
 

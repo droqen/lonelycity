@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0cxqa1la28m6"]
+
+[ext_resource type="Texture2D" uid="uid://b0dlmkeay005x" path="res://00-demos/003-pxartvu/pxart/pg08.png" id="1_t1c3e"]
+
+[node name="DisplayHelp" type="Node2D"]
+
+[node name="Pg08" type="Sprite2D" parent="."]
+texture = ExtResource("1_t1c3e")
+centered = false
